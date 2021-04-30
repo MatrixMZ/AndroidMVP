@@ -33,5 +33,9 @@ package com.raywenderlich.android.creaturemon.model
 enum class AttributeType {
   INTELLIGENCE,
   STRENGTH,
-  ENDURANCE
+  ENDURANCE;
+
+    operator fun get(position: Int): Any {
+
+    }
 }
